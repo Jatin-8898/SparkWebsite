@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 2000px;
+}
+
+
+/**************************************************************
+/************************GENERICS*****************************
+/**************************************************************/
+h1,p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+ul,li{
+    list-style: none;
+}
+.section-padding{
+    padding: 64px 0;
+}
+
+
+
+.white{
+    color: #fff;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+
+/**************************************************************
+/************************SETTINGS THE COLORS*****************************
+/**************************************************************/
+
+.primary{
+    color: #d35400;
+}
+.primary-bg{
+    background-color: #d35400;
+}
+.secondary{
+    color: #3498db;
+}
+.primary-bg{
+    background-color: #3498db;
+}
+
+
+a,a:active,.btn,.btn:active{
+    text-decoration: none;
+    color: #d35400;
+}
+a:hover,a:focus{
+    text-decoration: none;
+    color: #fff;
+}
+.transparent-bg{
+    background-color: rgba(0,0,0,0.6);
+}
+/**************************************************************
+/************************TYPED CSS*****************************
+/**************************************************************/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-webkit-keyframes blink{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-moz-keyframes blink{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+
+
