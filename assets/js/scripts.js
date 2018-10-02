@@ -13,7 +13,7 @@ $(document).ready(function(){
     
     var typed = new Typed('#typed', {
         //stringsElement: '#typed-strings'
-        strings: ['I am new in <strong class="primary">JavaScript...</strong>', 'I want to be<strong class="secondary">Awesome Developer</strong>'],
+        strings: ['I am new in <strong class="primary">JavaScript...</strong>', 'I want to become <strong class="secondary">Awesome Developer</strong>'],
         typeSpeed: 50,
         backDelay: 1000,
         backSpeed: 10,
